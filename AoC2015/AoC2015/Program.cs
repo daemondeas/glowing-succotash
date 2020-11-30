@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using AoC2015._1;
 
 namespace AoC2015
@@ -19,6 +20,19 @@ namespace AoC2015
                             break;
                         case 2:
                             Console.WriteLine(Climber.ClimbToBasement(args[2]));
+                            break;
+                    }
+
+                    break;
+
+                case 2:
+                    switch (subtask)
+                    {
+                        case 1:
+                            Console.WriteLine(Wrapper.GetWrappingArea(args.Skip(2).ToArray()));
+                            break;
+                        case 2:
+                            Console.WriteLine(Wrapper.GetRibbonLength(args.Skip(2).ToArray()));
                             break;
                     }
 
