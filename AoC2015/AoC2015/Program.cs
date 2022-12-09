@@ -2,6 +2,7 @@
 using System.Linq;
 using AoC2015._1;
 using AoC2015._3;
+using AoC2015._4;
 
 namespace AoC2015
 {
@@ -47,6 +48,19 @@ namespace AoC2015
                             break;
                         case 2:
                             Console.WriteLine(Navigator.NavigateWithRobot(args[2].ToCharArray()));
+                            break;
+                    }
+
+                    break;
+                
+                case 4:
+                    switch (subtask)
+                    {
+                        case 1:
+                            Console.WriteLine(Hasher.FindSmallestAdventCoinHashNumber(args[2], "00000"));
+                            break;
+                        case 2:
+                            Console.WriteLine(Hasher.FindSmallestAdventCoinHashNumber(args[2], "000000"));
                             break;
                     }
 
