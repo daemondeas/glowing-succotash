@@ -3,6 +3,7 @@ using System.Linq;
 using AoC2015._1;
 using AoC2015._3;
 using AoC2015._4;
+using AoC2015._5;
 
 namespace AoC2015
 {
@@ -61,6 +62,19 @@ namespace AoC2015
                             break;
                         case 2:
                             Console.WriteLine(Hasher.FindSmallestAdventCoinHashNumber(args[2], "000000"));
+                            break;
+                    }
+
+                    break;
+                
+                case 5:
+                    switch (subtask)
+                    {
+                        case 1:
+                            Console.WriteLine(NiceDecisionMaker.CountNiceStrings(args.Skip(2)));
+                            break;
+                        case 2:
+                            Console.WriteLine(NiceDecisionMaker.CountNiceStringsNew(args.Skip(2)));
                             break;
                     }
 
