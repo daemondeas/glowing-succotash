@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using AoC2015._1;
+using AoC2015._3;
 
 namespace AoC2015
 {
@@ -33,6 +34,19 @@ namespace AoC2015
                             break;
                         case 2:
                             Console.WriteLine(Wrapper.GetRibbonLength(args.Skip(2).ToArray()));
+                            break;
+                    }
+
+                    break;
+                
+                case 3:
+                    switch (subtask)
+                    {
+                        case 1:
+                            Console.WriteLine(Navigator.Navigate(args[2].ToCharArray()));
+                            break;
+                        case 2:
+                            Console.WriteLine(Navigator.NavigateWithRobot(args[2].ToCharArray()));
                             break;
                     }
 
