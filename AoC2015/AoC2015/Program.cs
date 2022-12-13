@@ -4,6 +4,8 @@ using AoC2015._1;
 using AoC2015._3;
 using AoC2015._4;
 using AoC2015._5;
+using AoC2015._6;
+using AoC2015._7;
 
 namespace AoC2015
 {
@@ -75,6 +77,32 @@ namespace AoC2015
                             break;
                         case 2:
                             Console.WriteLine(NiceDecisionMaker.CountNiceStringsNew(args.Skip(2)));
+                            break;
+                    }
+
+                    break;
+                
+                case 6:
+                    switch (subtask)
+                    {
+                        case 1:
+                            Console.WriteLine(SuperLightSwitch.FollowSantaInstructions());
+                            break;
+                        case 2:
+                            Console.WriteLine(SuperLightSwitch.FollowBetterTranslation());
+                            break;
+                    }
+
+                    break;
+                
+                case 7:
+                    switch (subtask)
+                    {
+                        case 1:
+                            Console.WriteLine(LogicBox.WhatsInA());
+                            break;
+                        case 2:
+                            Console.WriteLine(LogicBox.WhatsInAWhenSettingBToFirstA());
                             break;
                     }
 
