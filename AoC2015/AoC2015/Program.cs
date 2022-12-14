@@ -6,6 +6,7 @@ using AoC2015._4;
 using AoC2015._5;
 using AoC2015._6;
 using AoC2015._7;
+using AoC2015._8;
 
 namespace AoC2015
 {
@@ -103,6 +104,19 @@ namespace AoC2015
                             break;
                         case 2:
                             Console.WriteLine(LogicBox.WhatsInAWhenSettingBToFirstA());
+                            break;
+                    }
+
+                    break;
+                
+                case 8:
+                    switch (subtask)
+                    {
+                        case 1:
+                            Console.WriteLine(StringUtils.GetMemoryDifference());
+                            break;
+                        case 2:
+                            Console.WriteLine(StringUtils.EncodeAndCheckOverhead());
                             break;
                     }
 
