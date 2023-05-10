@@ -27,8 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a99f657d-0e3d-44c2-9004-1e86eb605775" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AoC2015/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AoC2015/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AoC2015/AoC2015.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2015/AoC2015.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AoC2015/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AoC2015/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +109,7 @@
       <workItem from="1606149959590" duration="1591000" />
       <workItem from="1670607724618" duration="5485000" />
       <workItem from="1670859783872" duration="10767000" />
-      <workItem from="1671037375697" duration="5537000" />
+      <workItem from="1671037375697" duration="9630000" />
     </task>
     <servers />
   </component>
@@ -165,13 +163,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/AoC2015/8/StringUtils.cs</url>
-          <line>18</line>
+          <line>24</line>
           <properties documentPath="$PROJECT_DIR$/AoC2015/8/StringUtils.cs" initialLine="34" containingFunctionPresentation="method 'MemorySize'">
             <startOffsets>
-              <option value="484" />
+              <option value="642" />
             </startOffsets>
             <endOffsets>
-              <option value="494" />
+              <option value="652" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="13" />
